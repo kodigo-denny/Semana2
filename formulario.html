@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="resultadoFormulario.html" method="post">
+            <label>Nombre:</label>
+            <input type="text" id="nombre"  />
+            
+            <br>
+            <label>Contraseña:</label>
+            <input type="password" id="password" value="1234" />
+        
+            <br>
+            <label>Seleccione una o mas opciones:</label>
+            <br><input type="checkbox" id="Direccion" /><label for="Direccion">Dirección</label>
+            <br><input type="checkbox" id="Tecnico" />Tecnico
+            <br><input type="checkbox" id="Empleado" />Empleado
+        
+            <br>
+            <label>Seleccione una opción:</label>
+            <br><input type="radio" id="opcion1" name="grupo" />Opción 1
+            <br><input type="radio" id="opcion2" name="grupo" />Opción 2
+            <br><input type="radio" id="opcion3" name="grupo" />Opción 3
+
+            <br>
+            <label>Seleccione una opción:</label>
+            <br><input type="radio" id="opcion4" name="grupo2" />Opción 4
+            <br><input type="radio" id="opcion5" name="grupo2" />Opción 5
+            <br><input type="radio" id="opcion6" name="grupo2" />Opción 6
+
+            <br><input type="submit" id="btnGuardar" value="Guardar" />
+            <br><input type="button" id="Cancelar" onclick="alert('Mensaje')" value="Cancelar" />
+
+            <br>
+            <select id="Departamentos">
+                <option value="0">No seleccionado</option>
+                <option value="1">San Salvador</option>
+                <option value="2">La Libertad</option>
+                <option value="3">Santa Ana</option>
+            </select>
+
+            
+        </form>
+    </body>
+</html>
