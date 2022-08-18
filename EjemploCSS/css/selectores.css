@@ -1,0 +1,36 @@
+/* Selector por elemento */
+h1{
+    color: blue;
+}
+/* Selector por clase*/
+.encabezado{
+    color: red;
+    font-size: 35px;
+    font-family:  monospace;
+}
+.encabezado2{
+    font-family: 'Courier New';
+    color: blueviolet;
+}
+/* Selector por ID*/
+#titulo{
+    color: chocolate;
+    background-color:antiquewhite;
+}
+/* Selector descedente*/
+div p{
+    color: red;
+    font-size: 25px;
+}
+div p span{
+    color: blue;;
+    font-size: 30px;
+}
+div .titulo{
+    color: beige;
+    background-color: black;
+}
+/* Selectores agrupados */
+div #principal, div h1{
+    color: chocolate;
+}
